@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapitre 4 : La Nuit des Épreuves</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0b1d3a; /* bleu nuit */
+            color: white;
+            font-family: 'Georgia', serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 110vh;
+            text-align: center;
+			background: linear-gradient(to bottom, #0b1d3a, #2E486B);
+        }
+        .container {
+            padding: 20px;
+        }
+        
+        .castle-img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .story-text {
+            font-size: 1.1em;
+            color: black;
+            margin-top: 20px;
+            text-align: left;
+            padding: 10px;
+            background-color: #f8e4b5;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+		.chapter-title {
+            margin-top: 10px;
+            margin-bottom : 10px;
+            font-size: 2.5rem;
+            padding: 0 20px;
+            color: #f8e4b5;
+			font-family: 'Radley' ;
+        }
+         .nav-button {
+		    
+            margin-top: 30px;
+            padding: 10px;
+            font-size: 1.1em;
+            background-color: #f8e4b5;
+            border: none;
+            border-radius: 15px;
+            color: Black;
+			font-family:'Radley', Bold;
+            cursor: pointer;
+            
+        }
+		.illustration {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+       
+        .next-button:hover {
+            background-color: #ffe066;
+        }
+       .container_button {
+		  display: grid;
+		  grid-template-columns: 2fr 2fr;
+		  gap: 20px;
+		}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="chapter-title">Chapitre 4 :<br> La Nuit des Épreuves</div>
+        <img src='Chap_4.png' alt='Conseil des Sages' class='illustration'>
+		<div class="story-text">
+            <p>La première nuit, Noa rêva qu’il volait sur un dragon. Mais au matin… le lit était mouillé.</p>
+            <p>Il était triste, mais le roi lui dit :</p>
+            <blockquote>— Même les dragons tombent parfois. Ce n’est pas grave. Tu es sur le bon chemin.</blockquote>
+            <p>La deuxième nuit, Noa se réveilla sec ! Il courut coller sa première étoile sur le calendrier. Il sauta de joie :</p>
+            <blockquote>— Une étoile ! Je suis un vrai chevalier !</blockquote>
+        </div>
+		<div class="container_button">
+			<button class='nav-button' onclick="location.href='chapitre3.html'">Précédent</button>
+			<button class='nav-button' onclick="location.href='chapitre5.html'">Suivant</button>
+		</div>
+    </div>
+	
+</body>
+</html>

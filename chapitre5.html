@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapitre 5 : Le Gardien des Rêves</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0b1d3a; /* bleu nuit */
+            color: white;
+            font-family: 'Georgia', serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+			background: linear-gradient(to bottom, #0b1d3a, #2E486B);
+        }
+        .container {
+            padding: 20px;
+        }
+        
+        .castle-img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .story-text {
+           font-size: 1.2em;
+            color: black;
+            margin-top: 20px;
+            text-align: left;
+            padding: 10px;
+            background-color: #fff8fc;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            font-family: 'Georgia',cursive, serif;
+        }
+		.chapter-title {
+            margin-top: 10px;
+            margin-bottom : 10px;
+            font-size: 2.5rem;
+            padding: 0 20px;
+            color: #f8e4b5;
+			font-family: 'Radley' ;
+        }
+         .nav-button {
+		    
+            margin-top: 30px;
+            padding: 10px;
+            font-size: 1.1em;
+            background-color: #f8e4b5;
+            border: none;
+            border-radius: 15px;
+            color: Black;
+			font-family:'Radley', Bold;
+            cursor: pointer;
+            
+        }
+		.illustration {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+       
+        .next-button:hover {
+            background-color: #ffe066;
+        }
+       .container_button {
+		  display: grid;
+		  grid-template-columns: 2fr 2fr;
+		  gap: 20px;
+		}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="chapter-title">Chapitre 5 :<br> Le Gardien des Rêves</div>
+		 <img src='Chap_5.png' alt='Conseil des Sages' class='illustration'>
+        <div class="story-text">
+            <p>Une nuit, Noa rencontra dans ses rêves un personnage mystérieux : le Gardien des Rêves.</p>
+            <blockquote>— Noa, tu es courageux. Je vais t’aider. Chaque fois que tu sens l’envie, appelle-moi dans ton rêve, et je te guiderai vers le château des toilettes.</blockquote>
+            <p>Noa se sentit soutenu. Il n’était plus seul.</p>
+        </div>
+		<div class="container_button">
+			<button class='nav-button' onclick="location.href='chapitre4.html'">Précédent</button>
+			<button class='nav-button' onclick="location.href='chapitre6.html'">Suivant</button>
+		</div>
+    </div>
+</body>
+</html>
