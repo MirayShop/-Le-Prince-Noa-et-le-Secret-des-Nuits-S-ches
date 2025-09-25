@@ -1,0 +1,89 @@
+   body {
+			
+            margin: 0;
+            padding: 0; /* commentaire */
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background: linear-gradient(to bottom, #dceeff, #ffffff);
+            text-align: center; 
+			
+			
+
+        }
+		
+        .container {
+            padding: 20px;
+        }
+        
+        .castle-img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .story-text {
+            font-size: 1.1em;
+            color: black;
+            margin-top: 20px;
+            text-align: left;
+            padding: 10px;
+            background-color: #fff8fc;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+		.chapter-title {
+            margin-top: 10px;
+            margin-bottom : 10px;
+            font-size: 2.5rem;
+            padding: 0 20px;
+            color: #f8e4b5;
+			font-family: 'Radley' ;
+        }
+         .nav-button {
+		    
+            margin-top: 30px;
+            padding: 10px;
+            font-size: 1.1em;
+            background-color: #f8e4b5;
+            border: none;
+            border-radius: 15px;
+            color: Black;
+			font-family:'Radley', Bold;
+            cursor: pointer;
+            
+        }
+		.title {
+             font-size: 2em;
+			font-family: 'fantasy', cursive;
+            color: #0077b6;
+            margin-top: 20px;
+			font-weight: 500;
+        }
+		.illustration {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+       
+       
+       .container_button {
+		  display: grid;
+		  grid-template-columns: 2fr 2fr;
+		  gap: 20px;
+		}
+		.start-button {
+            margin-top: 30px;
+            padding: 15px 30px;
+            font-size: 1.5em;
+			font-family: 'Nunito Bold', system-ui;
+            background-color: #8f5338;
+            border: 0.3rem solid;
+            border-radius: 30px;
+			border-color : #fcd294;
+            color: #fbedcc;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .start-button:hover {
+            background-color: #8f5338;
+        }
